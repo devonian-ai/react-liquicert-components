@@ -185,8 +185,8 @@ class LiquicertBadgeFromData extends Component {
                 <div id="preview" className="previewCard">
                     <img src={Cert_Flourish} style={{width:'70px', height:'auto'}}></img>
                     <p className="path-certificate-title">{`${this.props.assetName} Trust Path:`}</p>
-                    <div style={{ width: '350px'}}>
-                        <div style ={{width: '350px'}}>
+                    <div style={{ width: '340px', marginLeft: '40px'}}>
+                        <div style ={{width: '340px'}}>
                             {
                                 this.props.pathInfo.validPath.map((item, index) => {
                                     if(!(this.props.pathInfo.validPath[index].trusted)){
