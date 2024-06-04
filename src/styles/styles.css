@@ -1,0 +1,117 @@
+.no-underline, .no-underline:visited, .no-underline:hover, .no-underline:active {
+  text-decoration: none !important;
+}
+
+.badgeImage {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .previewCard {
+    position: fixed;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    width: 400px;
+    display: none;
+}
+
+.path-certificate-title {
+  color: #3a3f4b;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Josefin Slab Bold', sans-serif; 
+  text-align: left;
+}
+
+.subway-img {
+  width: 12px;
+  height: auto;
+  margin-right: 15px;
+  }
+  
+  .path-certificate-plaintext {
+  color: #3a3f4b;
+  font-size: 14px;
+  font-family: 'Josefin Slab', sans-serif; 
+  text-align: left;
+  }
+  
+  .path-certificate-plaintext-middle {
+      color: #3a3f4b;
+      font-size: 14px;
+      font-family: 'Josefin Slab', sans-serif; 
+      text-align: left;
+      padding-top: 3px;
+  }
+  
+  .path-certificate-plaintext-end {
+      color: #3a3f4b;
+      font-size: 14px;
+      font-family: 'Josefin Slab', sans-serif; 
+      text-align: left;
+      padding-top: 4px;
+  }
+    
+    .path-certificate-trusted {
+      color: #039C2E;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Josefin Slab', sans-serif; /* Ensure consistency in font-family declaration */
+      margin-right: 5px;
+      padding-top: 3px;
+    }
+    
+    .path-certificate-not-trusted {
+      color: #DB2424;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Josefin Slab', sans-serif;
+      margin-right: 5px;
+      padding-top: 3px;
+    }
+    
+    .path-certificate-trusted-small-superbold {
+      color: #039C2E;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: 'Josefin Slab Bold', sans-serif; /* Ensure consistency in font-family declaration */
+    }
+    
+    .path-certificate-not-trusted-small-superbold {
+      color: #DB2424;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: 'Josefin Slab Bold', sans-serif;
+    }
+    
+    .path-certificate-trusted-inactive {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Josefin Slab', sans-serif;
+      margin-right: 5px;
+      padding-top: 3px;
+    }
+    
+    .path-certificate-paragraph-small-superbold{
+      color: #3a3f4b;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: 'Josefin Slab', sans-serif; 
+      /* padding-bottom: 5px; */
+      vertical-align: middle;
+      text-align: left;
+    }
+  
+    .trust-seal-img{
+      width: 90px;
+      height: auto;
+      padding-top: 8px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+    }
